@@ -11,4 +11,3 @@ steps:
     GOPATH: /drone
   commands:
   - go version
-  - glide install
