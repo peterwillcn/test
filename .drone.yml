@@ -1,12 +1,12 @@
 kind: pipeline
-name: elastos
+name: test
 
 clone:
   depth: 10
   
 steps:
 - name: test
-  image: golang:1.13
+  image: golang:alpine
   environment:
     GOPATH: /drone
   commands:
