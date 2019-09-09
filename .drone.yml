@@ -2,7 +2,7 @@ kind: pipeline
 name: test
 
 clone:
-  depth: 1
+  depth: 2
 
 steps:
 - name: test
